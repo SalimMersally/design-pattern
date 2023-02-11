@@ -1,4 +1,4 @@
-package com.salim.structural.facade.complexsystem;
+package com.salim.structural.facade.example.complexsystem;
 
 public class SubSystemA {
     public void methodA() {

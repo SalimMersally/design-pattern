@@ -1,4 +1,4 @@
-package com.salim.structural.decorator;
+package com.salim.structural.decorator.example;
 
 // The base decorator should implement the same interface
 // it should also add a field of the base object

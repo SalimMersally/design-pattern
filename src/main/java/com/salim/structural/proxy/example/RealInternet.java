@@ -1,4 +1,4 @@
-package com.salim.structural.proxy;
+package com.salim.structural.proxy.example;
 
 public class RealInternet implements Internet{
     @Override

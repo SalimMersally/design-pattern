@@ -1,4 +1,4 @@
-package com.salim.structural.proxy;
+package com.salim.structural.proxy.example;
 
 import java.util.ArrayList;
 import java.util.List;

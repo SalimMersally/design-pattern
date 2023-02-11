@@ -1,5 +1,9 @@
 package com.salim.structural.flyweight;
 
+import com.salim.structural.flyweight.example.FoodItem;
+import com.salim.structural.flyweight.example.FoodItemFactory;
+import com.salim.structural.flyweight.example.Order;
+
 public class Main {
     public static void main(String[] args) {
         FoodItem foodItem1 = FoodItemFactory.getFoodItem("Pizza", 3.5);

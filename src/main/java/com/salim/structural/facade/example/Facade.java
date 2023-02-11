@@ -1,8 +1,8 @@
-package com.salim.structural.facade;
+package com.salim.structural.facade.example;
 
-import com.salim.structural.facade.complexsystem.SubSystemA;
-import com.salim.structural.facade.complexsystem.SubSystemB;
-import com.salim.structural.facade.complexsystem.SubSystemC;
+import com.salim.structural.facade.example.complexsystem.SubSystemA;
+import com.salim.structural.facade.example.complexsystem.SubSystemB;
+import com.salim.structural.facade.example.complexsystem.SubSystemC;
 
 public class Facade {
     private final SubSystemA subSystemA;

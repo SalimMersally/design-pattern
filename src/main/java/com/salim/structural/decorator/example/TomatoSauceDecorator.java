@@ -1,4 +1,4 @@
-package com.salim.structural.decorator;
+package com.salim.structural.decorator.example;
 
 // Concrete decorator extends the default one
 // it overrides the default functionality and change it

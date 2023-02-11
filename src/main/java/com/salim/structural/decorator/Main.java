@@ -1,5 +1,10 @@
 package com.salim.structural.decorator;
 
+import com.salim.structural.decorator.example.PepperoniDecorator;
+import com.salim.structural.decorator.example.Pizza;
+import com.salim.structural.decorator.example.PlainPizza;
+import com.salim.structural.decorator.example.TomatoSauceDecorator;
+
 public class Main {
 
     public static void main(String[] args) {

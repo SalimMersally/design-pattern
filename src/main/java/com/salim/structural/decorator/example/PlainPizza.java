@@ -1,4 +1,4 @@
-package com.salim.structural.decorator;
+package com.salim.structural.decorator.example;
 
 // Base component should provide default implementation
 public class PlainPizza implements Pizza {

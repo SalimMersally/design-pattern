@@ -1,4 +1,4 @@
-package com.salim.structural.flyweight;
+package com.salim.structural.flyweight.example;
 
 import java.util.HashMap;
 

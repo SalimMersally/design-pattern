@@ -1,6 +1,4 @@
-package com.salim.structural.facade.complexsystem;
-
-import com.salim.structural.facade.Facade;
+package com.salim.structural.facade;
 
 public class Main {
     public static void main(String[] args) {

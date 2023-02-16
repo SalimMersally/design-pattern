@@ -4,11 +4,11 @@ import com.salim.structural.adapter.example.MediaPlayer;
 
 public class Main {
     public static void main(String[] args) {
-        MediaPlayer audioPlayer = new MediaPlayer();
+        MediaPlayer mediaPlayer = new MediaPlayer();
 
-        audioPlayer.play("mp3", "beyond the horizon.mp3");
-        audioPlayer.play("mp4", "alone.mp4");
-        audioPlayer.play("vlc", "far far away.vlc");
-        audioPlayer.play("avi", "mind me.avi");
+        mediaPlayer.play("mp3", "beyond the horizon.mp3");
+        mediaPlayer.play("mp4", "alone.mp4");
+        mediaPlayer.play("vlc", "far far away.vlc");
+        mediaPlayer.play("avi", "mind me.avi");
     }
 }

@@ -1,7 +1,6 @@
 package com.salim.structural.adapter.example;
 
-public class AdvancedMediaPlayer
-{
+public class AdvancedMediaPlayer {
         public void playVlc(String fileName) {
             System.out.println("Playing vlc file. Name: "+ fileName);
         }
@@ -9,5 +8,4 @@ public class AdvancedMediaPlayer
         public void playMp4(String fileName) {
             System.out.println("Playing mp4 file. Name: "+ fileName);
         }
-
 }

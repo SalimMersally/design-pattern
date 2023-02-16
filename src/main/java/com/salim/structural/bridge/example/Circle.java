@@ -13,17 +13,17 @@ public class Circle extends Shape {
     }
 
     @Override
-    double getSize() {
+    public double getSize() {
         return 3.14 * radius * 2;
     }
 
     @Override
-    double getPositionX() {
+    public double getPositionX() {
         return x;
     }
 
     @Override
-    double getPositionY() {
+    public double getPositionY() {
         return y;
     }
 

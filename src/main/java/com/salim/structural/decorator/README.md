@@ -1,6 +1,6 @@
 ﻿# Decorator
 
-The decorator pattern is a way to add additional functionality to an object by wrapping it in a "decorator" object. This allows yous to dynamically modify an object at runtime without having to change its original code.
+The decorator pattern is a way to add additional functionality to an object by wrapping it in a "decorator" object. This allows you to dynamically modify an object at runtime without having to change its original code.
 
 ## Decorator vs Inheritance
 

@@ -13,17 +13,17 @@ public class Square extends Shape {
     }
 
     @Override
-    double getSize() {
+    public double getSize() {
         return side*side;
     }
 
     @Override
-    double getPositionX() {
+    public double getPositionX() {
         return x;
     }
 
     @Override
-    double getPositionY() {
+    public double getPositionY() {
         return y;
     }
 

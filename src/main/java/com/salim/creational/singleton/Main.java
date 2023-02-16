@@ -4,12 +4,11 @@ import com.salim.creational.singleton.example.Database;
 
 public class Main {
     public static void main(String[] args) {
-        Database db1;
-
-        // refers to the only object of Database
-        db1= Database.getInstance();
-
+        Database db1 = Database.getInstance();
         db1.getConnection();
+
+        Database db2 = Database.getInstance();
+        System.out.println("Are both objects the same? " +  (db1 == db2));
     }
 }
 /*

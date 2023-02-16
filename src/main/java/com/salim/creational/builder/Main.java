@@ -9,7 +9,11 @@ public class Main {
                 .setName("Shirt")
                 .setSize(42)
                 .setColor("Blue")
+                .setPrice(12.4)
+                .setCategory("Cloth")
+                .setDateOfProduction("10-4-2015")
                 .build();
+
         System.out.println(product);
     }
 }

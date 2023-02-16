@@ -2,7 +2,6 @@ package com.salim.creational.prototype.example;
 public abstract class Shape implements Cloneable {
     private String id;
     protected String type;
-    abstract void draw();
 
     public String getType() {
         return type;
@@ -16,10 +15,6 @@ public abstract class Shape implements Cloneable {
         this.id = id;
     }
 
-    /**
-     * Use Object class's Clone() method to do the cloning.
-     * @return
-     */
     public Object clone() {
         Object cloneObject = null;
         try {

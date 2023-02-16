@@ -1,24 +1,20 @@
 package com.salim.structural.bridge.example;
 
 public class Circle extends Shape {
-
-    private double radius;
-    private double x;
-    private double y;
-
-    private Design designMode;
+    private final double radius;
+    private final double x;
+    private final double y;
 
     public  Circle(double x, double y ,double radius, Design designMode) {
+        super(designMode);
         this.x = x;
         this.y = y;
         this.radius = radius;
-        this.designMode = designMode;
     }
-
 
     @Override
     double getSize() {
-        return 3.14*radius*2;
+        return 3.14 * radius * 2;
     }
 
     @Override
@@ -33,7 +29,10 @@ public class Circle extends Shape {
 
     @Override
     public void draw() {
-        System.out.println("Drawing Circle of size "+ getSize()+" and position ("+getPositionX()+ ","+ getPositionY()+") ");
-        designMode.fill();
+        System.out.println("Drawing Circle of size "
+                + getSize() + " and position ("
+                + getPositionX() + ", "
+                + getPositionY() + ") ");
+        super.draw();
     }
 }

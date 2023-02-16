@@ -1,8 +1,7 @@
 package com.salim.structural.composite.example;
 
 public class Burger implements Food{
-
-    private double price;
+    private final double price;
 
     public  Burger() {
         price = 4;
@@ -15,7 +14,7 @@ public class Burger implements Food{
 
     @Override
     public double getPrice() {
-        System.out.println("adding Burger $" + price );
+        System.out.println("adding Burger $" + price);
         return price;
     }
 }

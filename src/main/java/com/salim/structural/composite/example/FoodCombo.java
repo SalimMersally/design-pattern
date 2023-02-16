@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FoodCombo implements Food{
-
-    private List<Food> foodList;
+    private final List<Food> foodList;
 
     public FoodCombo() {
         foodList = new ArrayList<>();
@@ -14,6 +13,7 @@ public class FoodCombo implements Food{
     public void addFood(Food food){
         foodList.add(food);
     }
+
     @Override
     public void prepare() {
         for(Food food: foodList){
@@ -24,9 +24,8 @@ public class FoodCombo implements Food{
     @Override
     public double getPrice() {
         double totalPrice = 0;
-        for(Food food: foodList){
+        for(Food food: foodList)
             totalPrice+= food.getPrice();
-        }
         return totalPrice;
     }
 }

@@ -1,8 +1,7 @@
 package com.salim.structural.composite.example;
 
 public class Pizza implements Food{
-
-    private double price;
+    private final double price;
 
     public Pizza() {
         price = 3.5;

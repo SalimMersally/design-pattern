@@ -9,7 +9,6 @@ public class Main {
     public static void main(String[] args) {
         Food pizza1 = new Pizza();
         Food pizza2 = new Pizza();
-
         Food burger= new Burger();
 
         FoodCombo combo = new FoodCombo();
@@ -19,6 +18,5 @@ public class Main {
 
         combo.prepare();
         System.out.println("Total Price: $"+ combo.getPrice());
-
     }
 }

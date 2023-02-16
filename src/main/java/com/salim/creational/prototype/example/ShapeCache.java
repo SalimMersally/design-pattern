@@ -3,13 +3,12 @@ package com.salim.creational.prototype.example;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class ShapeCache {
-    private static Map < String, Shape > shapeMap = new HashMap < String, Shape > ();
+    private static final Map <String, Shape> shapeMap = new HashMap <>();
 
     public static Shape getShape(String shapeId) {
-        Shape toBeClonedShape = shapeMap.get(shapeId);
-        return (Shape) toBeClonedShape.clone();
+        Shape shapeToBeCloned = shapeMap.get(shapeId);
+        return (Shape) shapeToBeCloned.clone();
     }
 
     public static void loadCache() {

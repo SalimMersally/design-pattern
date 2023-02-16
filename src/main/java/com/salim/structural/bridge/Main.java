@@ -1,20 +1,19 @@
 package com.salim.structural.bridge;
 
+
 import com.salim.structural.bridge.example.Circle;
-import com.salim.structural.bridge.example.Draw;
+import com.salim.structural.bridge.example.GradientFill;
+import com.salim.structural.bridge.example.SolidFill;
 import com.salim.structural.bridge.example.Square;
-import com.salim.structural.bridge.example.Paint;
-
-import java.awt.*;
-
 
 public class Main {
     public static void main(String[] args)
     {
-        Circle shape1 = new Circle(new Draw(12,2), new Paint("yellow"));
-        shape1.draw();
+        Circle circle1 = new Circle(12,11,1,new SolidFill("yellow"));
+        Square square1 = new Square(5,6,3,new GradientFill("white","black"));
 
-        Square shape2 = new Square(new Draw(15,10), new Paint("red"));
-        shape2.draw();
+        circle1.draw();
+        square1.draw();
+
     }
 }

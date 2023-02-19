@@ -27,6 +27,5 @@ public class Main {
 
         mainLanding.land();
         cc600.land();
-
     }
 }

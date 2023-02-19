@@ -8,24 +8,20 @@ public class ControlTower implements FlightMediator {
     private Port port;
     public boolean land;
 
-    public void registerRunway(Port port)
-    {
+    public void registerRunway(Port port) {
         this.port = port;
     }
 
-    public void registerFlight(Flight flight)
-    {
+    public void registerFlight(Flight flight) {
         this.flights.add( flight);
     }
 
-    public boolean isLandingOk()
-    {
+    public boolean isLandingOk() {
         return land;
     }
 
     @Override
-    public void setLandingStatus(boolean status)
-    {
+    public void setLandingStatus(boolean status) {
         land = status;
     }
 }

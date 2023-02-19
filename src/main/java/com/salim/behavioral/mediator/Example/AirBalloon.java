@@ -9,10 +9,9 @@ public class AirBalloon implements Flight {
         this.Mediator = Mediator;
     }
 
-    public void land()
-    {
-        if (Mediator.isLandingOk())
-        {
+    @Override
+    public void land() {
+        if (Mediator.isLandingOk()) {
             System.out.println("Air Balloon successfully Landed.");
             Mediator.setLandingStatus(false);
         }
@@ -20,8 +19,8 @@ public class AirBalloon implements Flight {
             System.out.println("Air Balloon waiting for landing.");
     }
 
-    public void getReady()
-    {
+    @Override
+    public void getReady() {
         System.out.println("Air Balloon ready for landing.");
     }
 }

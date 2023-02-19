@@ -6,10 +6,10 @@ public class Airplane implements Flight{
     public Airplane(FlightMediator Mediator){
         this.Mediator = Mediator;
     }
+
     @Override
     public void land() {
-        if (Mediator.isLandingOk())
-        {
+        if (Mediator.isLandingOk()) {
             System.out.println("Airplane successfully Landed.");
             Mediator.setLandingStatus(false);
         }

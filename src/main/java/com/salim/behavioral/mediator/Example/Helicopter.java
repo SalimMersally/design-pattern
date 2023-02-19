@@ -5,13 +5,12 @@ public class Helicopter implements Flight {
     public Helicopter(FlightMediator Mediator){
         this.Mediator = Mediator;
     }
+
     @Override
     public void land() {
-        if (Mediator.isLandingOk())
-        {
+        if (Mediator.isLandingOk()) {
             System.out.println("Helicopter successfully Landed.");
             Mediator.setLandingStatus(false);
-
         }
         else
             System.out.println("Helicopter waiting for landing.");
@@ -20,6 +19,5 @@ public class Helicopter implements Flight {
     @Override
     public void getReady() {
         System.out.println("Helicopter ready for landing.");
-
     }
 }

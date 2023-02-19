@@ -9,7 +9,6 @@ public class Light {
     }
 
     public void previousState(){
-
         state.prev(this);
     }
     public void nextState(){

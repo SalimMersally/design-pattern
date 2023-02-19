@@ -15,6 +15,5 @@ public class YellowLight implements LightState{
     @Override
     public void printStatus() {
         System.out.println("Yellow Light On");
-
     }
 }

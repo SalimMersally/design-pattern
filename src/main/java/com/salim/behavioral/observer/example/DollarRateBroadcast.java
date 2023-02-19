@@ -5,7 +5,7 @@ import java.util.List;
 
 public class DollarRateBroadcast {
     private double rate;
-    private List<Subscriber> subscribers = new ArrayList<>();
+    private final List<Subscriber> subscribers = new ArrayList<>();
 
     public void addObserver(Subscriber channel) {
         this.subscribers.add(channel);
@@ -13,6 +13,10 @@ public class DollarRateBroadcast {
 
     public void removeObserver(Subscriber subscriber) {
         this.subscribers.remove(subscriber);
+    }
+
+    public double getRate() {
+        return rate;
     }
 
     public void updateRate(double rate) {

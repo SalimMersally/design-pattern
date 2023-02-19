@@ -13,7 +13,5 @@ public class Main {
         broadcast.addObserver(sub2);
 
         broadcast.updateRate(80000);
-
-
     }
 }

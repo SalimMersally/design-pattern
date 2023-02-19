@@ -16,6 +16,5 @@ public class GreenLight implements LightState{
     @Override
     public void printStatus() {
         System.out.println("Green Light On");
-
     }
 }

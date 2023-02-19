@@ -15,6 +15,5 @@ public class RedLight implements LightState{
     @Override
     public void printStatus() {
         System.out.println("Red Light On");
-
     }
 }
